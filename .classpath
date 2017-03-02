@@ -6,6 +6,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry excluding="java/" kind="src" path="src/test"/>
 	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
@@ -30,10 +31,11 @@
 	</classpathentry>
 	<classpathentry kind="src" output="target/classes" path="target/generated-resources/gwt">
 		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="ignore_optional_problems" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/Users/Elliot/Desktop/phantomjsdriver-1.2.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
