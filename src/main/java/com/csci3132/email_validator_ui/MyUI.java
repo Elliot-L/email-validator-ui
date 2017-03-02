@@ -26,15 +26,26 @@ public class MyUI extends UI {
     protected void init(VaadinRequest vaadinRequest) {
         final VerticalLayout layout = new VerticalLayout();
         
+        //name will store the email address to be checked
         final TextField name = new TextField();
         name.setCaption("Enter the email address to check:");
 
         Button button = new Button("Check email");
         button.addClickListener( e -> {
             //code to check the validity of the email goes here
+        	Validator validator = new Validator();
         	
-        	layout.addComponent(new Label("After checking: " + name.getValue() 
-                    + " is a valid email address"));
+        	//test and response if the email id valid
+        	if(validator.validate(name.getValue()) == true){
+            	layout.addComponent(new Label("After checking: " + name.getValue() 
+                + " is a valid email address"));
+        	}
+        	//if the email is not valid, a different label is needed
+        	else{
+            	layout.addComponent(new Label("After checking: " + name.getValue() 
+                + " is not a valid email address"));        		
+        	}
+
         });
         
         layout.addComponents(name, button);
