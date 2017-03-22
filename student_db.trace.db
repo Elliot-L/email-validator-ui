@@ -1,0 +1,15 @@
+2017-03-17 15:34:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "EMAIL" not found; SQL statement:
+DROP TABLE EMAIL [42102-193]
+2017-03-17 15:34:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "EMAIL" not found; SQL statement:
+DROP TABLE EMAIL [42102-193]
+2017-03-17 15:34:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "EMAIL" not found; SQL statement:
+DROP TABLE EMAIL [42102-193]
+2017-03-17 15:34:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "EMAIL" not found; SQL statement:
+DROP TABLE EMAIL [42102-193]
+2017-03-17 15:34:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "EMAIL" not found; SQL statement:
+DROP TABLE EMAIL [42102-193]
